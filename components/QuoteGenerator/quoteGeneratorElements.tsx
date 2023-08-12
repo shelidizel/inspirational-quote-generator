@@ -22,3 +22,18 @@ export const GradientBgCon = styled.div`
    }
   
 `;
+
+export const BgImage1 = styled(image)`
+position : relative;
+z-index: 1;
+margin-left: 50px;
+margin-top: 10px;
+  
+`;
+export const BgImage2 = styled(image)`
+position : fixed;
+z-index: 1;
+right: 20px;
+bottom:0px;
+  
+`;
